@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "title": "[CP02] Threat Modeling - Cagaoan & Salazar",
+    "owner": "John Henry Cagoan & Jacob Israel Salazar"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "John_Henry_Cagaoan@dlsu.edu.ph"
+      },
+      {
+        "name": "Jacob_salazar@dlsu.edu.ph"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Data Flow Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "Threat Graphs",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ]
+  }
+}

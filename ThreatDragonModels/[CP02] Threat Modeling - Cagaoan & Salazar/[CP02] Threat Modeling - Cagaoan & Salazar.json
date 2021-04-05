@@ -4078,6 +4078,11 @@
           "height": 590,
           "width": 1354
         }
+      },
+      {
+        "title": "Threat Graph 3 - SQL injection and cross-site scripting",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 5
       }
     ]
   }

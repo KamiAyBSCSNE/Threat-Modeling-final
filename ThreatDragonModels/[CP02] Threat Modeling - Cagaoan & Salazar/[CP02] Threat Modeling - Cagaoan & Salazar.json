@@ -3849,6 +3849,11 @@
           "height": 590,
           "width": 1174
         }
+      },
+      {
+        "title": "MITM - Threat Graph",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 4
       }
     ]
   }

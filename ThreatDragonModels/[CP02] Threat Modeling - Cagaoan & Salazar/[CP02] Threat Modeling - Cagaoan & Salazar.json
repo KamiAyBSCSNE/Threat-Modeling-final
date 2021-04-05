@@ -4630,6 +4630,11 @@
           "height": 590,
           "width": 909
         }
+      },
+      {
+        "title": "Threat Graph 4 -",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 6
       }
     ]
   }

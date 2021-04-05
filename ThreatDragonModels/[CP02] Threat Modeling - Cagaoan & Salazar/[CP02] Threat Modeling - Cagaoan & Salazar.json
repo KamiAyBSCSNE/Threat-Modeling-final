@@ -6,12 +6,10 @@
   "detail": {
     "contributors": [
       {
-        "name": "John_Henry_Cagaoan@dlsu.edu.ph",
-        "$$hashKey": "object:11"
+        "name": "John_Henry_Cagaoan@dlsu.edu.ph"
       },
       {
-        "name": "Jacob_salazar@dlsu.edu.ph",
-        "$$hashKey": "object:12"
+        "name": "Jacob_salazar@dlsu.edu.ph"
       }
     ],
     "diagrams": [
@@ -425,20 +423,111 @@
         "size": {
           "height": 590,
           "width": 790
-        },
-        "$$hashKey": "object:15"
+        }
       },
       {
         "title": "Threat Graphs",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 1,
-        "$$hashKey": "object:16"
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 63,
+                "y": 26
+              },
+              "angle": 0,
+              "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "attacker"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 270,
+                "y": 184
+              },
+              "angle": 0,
+              "id": "16f54382-5669-459f-beb0-84133a4ec36f",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "dictionary\nstore"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
+              },
+              "target": {
+                "id": "16f54382-5669-459f-beb0-84133a4ec36f"
+              },
+              "vertices": [],
+              "id": "53ee0b90-e241-443b-baad-91b202c89cd7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "brute force attack",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       },
       {
         "title": "DFD",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 2,
-        "$$hashKey": "object:26",
         "diagramJson": {
           "cells": [
             {

@@ -3159,7 +3159,7 @@
         }
       },
       {
-        "title": "Brute Force - Threat Graph",
+        "title": "Threat Graph 1 - Brute Force",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 3,
         "diagramJson": {

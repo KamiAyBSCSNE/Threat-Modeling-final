@@ -4996,7 +4996,437 @@
       {
         "title": "Threat Graph 5 - Attacker Gains Access to Web Server",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 7
+        "id": 7,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 380,
+                "y": 12
+              },
+              "angle": 0,
+              "id": "645372e8-db81-4691-86d6-343f70df1da7",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Attacker gains access to\nweb server, run\ncommands in database\nand modify web server\nresources and static files"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 115,
+                "y": 172
+              },
+              "angle": 0,
+              "id": "fada3e0c-d6f0-4d52-a5dd-cab6eb64a588",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Misconfigured logical\nsecurity controls"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 654,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "8e6e58c6-2723-4b13-be9c-137c8fe10e8e",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Mishandled physical\nsecurity controls in web\nserver premise"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 0,
+                "y": 330
+              },
+              "angle": 0,
+              "id": "72834902-557e-4b8d-8a5d-4d0e2c27a3f8",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Employ rotating\ncredentials to ensure\nthat old administrator\nlogin details are\nrendered unusable"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 195,
+                "y": 331
+              },
+              "angle": 0,
+              "id": "b36b5766-519e-474a-b9d7-3685628fedf1",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Disable destructive\ndatabase actions such as\nmodifying multiple\ndocuments at once or\ndropping tables"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 382,
+                "y": 333
+              },
+              "angle": 0,
+              "id": "b641e98e-b22b-41cd-9172-d29f9f7a2a19",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Employ regular server\nbackups or snapshots to\neasily rollback to\nversions prior to data\ncompromises"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 654,
+                "y": 327
+              },
+              "angle": 0,
+              "id": "98dc0eb3-e995-4fd9-9d60-ff9aae61300f",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Re-run background\nchecks for employees\nwith access to the web\nserver"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "645372e8-db81-4691-86d6-343f70df1da7"
+              },
+              "target": {
+                "id": "fada3e0c-d6f0-4d52-a5dd-cab6eb64a588"
+              },
+              "vertices": [
+                {
+                  "x": 296,
+                  "y": 153
+                }
+              ],
+              "id": "176db2ce-a291-42bc-81a0-244128e5633a",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5603966185260006,
+                    "offset": 2.1703795997963344
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "645372e8-db81-4691-86d6-343f70df1da7"
+              },
+              "target": {
+                "id": "8e6e58c6-2723-4b13-be9c-137c8fe10e8e"
+              },
+              "vertices": [
+                {
+                  "x": 615,
+                  "y": 144
+                }
+              ],
+              "id": "9954e42f-0e83-4d4c-9102-ecae108c3d3f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "fada3e0c-d6f0-4d52-a5dd-cab6eb64a588"
+              },
+              "target": {
+                "id": "b36b5766-519e-474a-b9d7-3685628fedf1"
+              },
+              "vertices": [
+                {
+                  "x": 232,
+                  "y": 284
+                }
+              ],
+              "id": "a979ea7a-3ab2-4fb4-ab9c-b3bc15e8e340",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.49280628342241883,
+                    "offset": 6.715147212403995
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "fada3e0c-d6f0-4d52-a5dd-cab6eb64a588"
+              },
+              "target": {
+                "x": 93,
+                "y": 328
+              },
+              "vertices": [
+                {
+                  "x": 124,
+                  "y": 293
+                }
+              ],
+              "id": "635873ef-996f-4998-97f9-50cce131221b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5638992367851395,
+                    "offset": -2.573729399196339
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 276,
+                "y": 231
+              },
+              "target": {
+                "id": "b641e98e-b22b-41cd-9172-d29f9f7a2a19"
+              },
+              "vertices": [
+                {
+                  "x": 329,
+                  "y": 274
+                }
+              ],
+              "id": "7cd49412-89a3-4c40-a5e0-234b5be0232b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8e6e58c6-2723-4b13-be9c-137c8fe10e8e"
+              },
+              "target": {
+                "id": "98dc0eb3-e995-4fd9-9d60-ff9aae61300f"
+              },
+              "vertices": [],
+              "id": "f56d782d-8991-4e13-9604-d14d520f2a96",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 819
+        }
       }
     ]
   }

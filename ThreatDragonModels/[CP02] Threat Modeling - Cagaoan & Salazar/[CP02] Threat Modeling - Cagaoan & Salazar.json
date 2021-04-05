@@ -3443,7 +3443,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Include a password\nstrength meter to assist\nusers to create a more\ncomplex password and\nminimize reusing"
+                  "text": "Include a password\nstrength meter to assist\nusers to create a more\ncomplex password"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"

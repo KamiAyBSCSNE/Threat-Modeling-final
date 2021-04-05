@@ -3157,6 +3157,11 @@
           "height": 1140,
           "width": 1360
         }
+      },
+      {
+        "title": "Brute Force - Threat Graph",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 3
       }
     ]
   }

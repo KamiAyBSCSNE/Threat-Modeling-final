@@ -3855,11 +3855,116 @@
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 4,
         "diagramJson": {
-          "cells": []
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 381,
+                "y": 35
+              },
+              "angle": 0,
+              "id": "c805412a-5d00-429a-8ce7-c009fb1fd274",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Attacker executes MITM\nto capture client data or\nauthentication cookies"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 381,
+                "y": 164
+              },
+              "angle": 0,
+              "id": "ab771e3c-8da6-41ee-a0eb-5690217b84ff",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Failure to validate cookie\ninput"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 512,
+                "y": 281
+              },
+              "angle": 0,
+              "id": "abff787f-5593-4124-a463-69f7dcac1e22",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "use only secure\nprotocols and disable\nlegacy protocols to\nminimize use of\nnon-encrypted"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 269,
+                "y": 283
+              },
+              "angle": 0,
+              "id": "28f2b727-6f89-46a7-a077-ee6be40bac26",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "use signed cookies and\nemploy expiration times\nto allow users to\nauthenticate"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1354
         }
       }
     ]

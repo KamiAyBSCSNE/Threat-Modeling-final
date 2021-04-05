@@ -438,8 +438,8 @@
                 "height": 80
               },
               "position": {
-                "x": 365,
-                "y": 202
+                "x": 362,
+                "y": 196
               },
               "angle": 0,
               "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad",
@@ -916,7 +916,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 14"
+                  "text": "database"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -955,6 +955,296 @@
                 }
               ],
               "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 11,
+                "y": 306
+              },
+              "angle": 0,
+              "id": "b7b9c6e5-a798-4ac6-8190-c57e7d8bee54",
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Cross-site\nscripting"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
+              },
+              "target": {
+                "id": "b7b9c6e5-a798-4ac6-8190-c57e7d8bee54"
+              },
+              "vertices": [
+                {
+                  "x": 197,
+                  "y": 311
+                }
+              ],
+              "id": "fa498f2c-7892-4b07-822c-0dd06179ddbb",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "injecting script code",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 85,
+                "y": 407
+              },
+              "angle": 0,
+              "id": "a8126043-569a-4089-8132-7fba6be2ebe7",
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "application"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
+              },
+              "target": {
+                "id": "a8126043-569a-4089-8132-7fba6be2ebe7"
+              },
+              "vertices": [
+                {
+                  "x": 266,
+                  "y": 346
+                }
+              ],
+              "id": "66a30d0b-6e23-49b4-b244-2442f2379a41",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Cookie replay or\ncapture",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a8126043-569a-4089-8132-7fba6be2ebe7"
+              },
+              "target": {
+                "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
+              },
+              "vertices": [
+                {
+                  "x": 336,
+                  "y": 356
+                }
+              ],
+              "id": "e99dbdb0-41d5-43fe-8558-bfa5b3c24540",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5050250414493496,
+                    "offset": 17.852216441446732
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "grant access or allows\nthe attack to spoof\nidentity",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a8126043-569a-4089-8132-7fba6be2ebe7"
+              },
+              "target": {
+                "id": "d5d22577-0aba-4294-81a3-bfddfa3bfe66"
+              },
+              "vertices": [
+                {
+                  "x": 484,
+                  "y": 423
+                }
+              ],
+              "id": "ee695af5-ba4c-43b6-a6fb-0e78d268f604",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "gain unauthorized\naccess to the\ndatabase",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a8126043-569a-4089-8132-7fba6be2ebe7"
+              },
+              "target": {
+                "id": "9be8766f-7cd7-4607-9515-fa4301a06756"
+              },
+              "vertices": [
+                {
+                  "x": 624,
+                  "y": 326
+                }
+              ],
+              "id": "362a51c9-88e3-4a7e-96fb-3f2570c6b2f4",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4173006496511549,
+                    "offset": -6.833253141052017
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "take control of the\nWeb server",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d5d22577-0aba-4294-81a3-bfddfa3bfe66"
+              },
+              "target": {
+                "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
+              },
+              "vertices": [],
+              "id": "1ac53d43-8bba-41b2-89eb-417ce7e02133",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5662654585625873,
+                    "offset": -9.371693045833721
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "obtains the\nencryption keys used\nto encrypt sensitive\ndata",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 25,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {

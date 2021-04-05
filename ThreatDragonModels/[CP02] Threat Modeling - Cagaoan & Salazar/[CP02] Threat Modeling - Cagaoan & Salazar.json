@@ -1210,8 +1210,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.4094807974719199,
-                    "offset": 1.4389945949105747
+                    "distance": 0.4441607378846048,
+                    "offset": 1.3946252395878158
                   },
                   "attrs": {
                     "text": {
@@ -1242,7 +1242,12 @@
               "target": {
                 "id": "2e897cd8-bd9f-449a-8ae6-bc6c8d1d2dad"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 501,
+                  "y": 286
+                }
+              ],
               "id": "1ac53d43-8bba-41b2-89eb-417ce7e02133",
               "labels": [
                 {

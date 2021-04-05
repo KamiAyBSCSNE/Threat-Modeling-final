@@ -3851,7 +3851,7 @@
         }
       },
       {
-        "title": "Threat Graph - Network eavesdropping &  captures an authentication cookie",
+        "title": "Threat Graph 2 - Network eavesdropping &  captures an authentication cookie",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 4,
         "diagramJson": {
